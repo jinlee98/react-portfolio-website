@@ -9,7 +9,7 @@ const aboutMe = () => {
                 <span id="aboutMe_lines_thick"></span>
                 <span id="aboutMe_lines_thin"></span>
             </div>
-            <h2>Software Development Engineer</h2>
+            <h2>Full Stack Developer</h2>
         </div>
     );
 };
