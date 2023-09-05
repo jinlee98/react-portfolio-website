@@ -15,19 +15,19 @@ const Skills = () => {
     <>
       <div className="container about-page">
         <div className="text-zone">
-          <h2>
+          <h2 className="lang">
             Languages:
           </h2>
           <p>
             Java, Python, C/C++, SQL (Postgres, My), TypeScript, JavaScript, HTML/CSS
           </p>
-          <h2>
+          <h2 className="frameworks">
             Frameworks:
           </h2>
           <p>
             React, React Native, Node.js, Spring, JUnit, Jest, Enzyme, jQuery, Bootstrap, Wordpress
           </p>
-          <h2>
+          <h2 className="tools">
             Developer Tools
           </h2>
           <p>

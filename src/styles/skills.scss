@@ -1,8 +1,26 @@
+h2.lang {
+  width: 15%;
+  padding-left: 0.5rem;
+  background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+}
+
+h2.frameworks {
+  width: 15%;
+  padding-left: 0.5rem;
+  background: linear-gradient(270deg, #ffffff00, var(--blue) 70%);
+}
+
+h2.tools {
+  width: 15%;
+  padding-left: 0.5rem;
+  background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
+}
+
 div.text-zone {
   position: fixed;
   top: 36%;
   width: 70%;
-  margin-left: 10%;
+  margin-left: 12%;
 }
 
 .stage-cube-cont {
@@ -12,8 +30,9 @@ div.text-zone {
     padding-top: 10%;
     margin-left: 0;
     position: absolute;
-    right: 6%;
+    right: 8%;
     overflow: hidden;
+    transform: translateY(-10%);
   }
 
   @media (max-width: 700px) {

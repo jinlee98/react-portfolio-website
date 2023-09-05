@@ -3,9 +3,9 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 60%;
+    top: 55%;
     transform: translateY(-60%);
-    left: 10vw;
+    left: 12vw;
 }
 
 .item {
@@ -26,12 +26,12 @@
 }
 
 .sub-container {
-    width: 18.5rem;
+    width: 25.5rem;
     position: fixed;
     display: flex;
     flex-direction: column;
     top: 32%;
-    right: 10vw;
+    right: 12vw;
     cursor: pointer;
 }
 
@@ -111,7 +111,21 @@
 }
 
 img.personal-picture {
+    margin-top: 2rem;
+    width: 18rem;
     transform: translateY(-15%);
+    background-color: lightgray;
+    object-fit: cover;
+    border-radius: 0.5rem 3rem 0.5rem 0.5rem;
+    opacity: 0.95;
+}
+
+img.ubc-logo {
+    width: 14rem;
+    background-color: lightgray;
+    transform: translateY(-4%);
+    border-radius: 0.5rem 3rem 0.5rem 0.5rem;
+    opacity: 0.95;
 }
 
 @media (max-width: 700px) {
@@ -128,9 +142,32 @@ img.personal-picture {
     }
 }
 
+@media (max-width: 1100px) {
+    img.personal-picture {
+        margin-top: 5rem;
+        width: 10rem;
+        transform: translateY(-40%);
+    }
+
+    .item {
+        height: 2.5rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        cursor: pointer;
+        transform: translateY(-900%);
+        margin-left: 8rem;
+    }
+}
+
 @media (max-width: 700px) {
     img.personal-picture {
         width: 6rem;
+    }
+
+    img.ubc-logo {
+        width: 6rem;
+        background-color: lightgray;
     }
 }
 

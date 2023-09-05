@@ -3,9 +3,10 @@ import AboutMenuItem from "./AboutMenuItem.js";
 import AboutSubheading from "./AboutSubheading.js";
 import subheadingsData from "./SubheadingsData.js";
 import personalIcon from "../assets/moebius-triangle.png";
-import educationIcon from "../assets/upgrade.png";
-import careerIcon from "../assets/triple-corn.png";
+import educationIcon from "../assets/book.png";
+import careerIcon from "../assets/upgrade.png";
 import aboutMePicture from "../assets/pp.png";
+import ubcLogo from "../assets/ubc-logo-png-transparent.png"
 
 export default class AboutMenu extends Component {
 
@@ -62,6 +63,7 @@ export default class AboutMenu extends Component {
             <h3>{activeMenuTitle}</h3>
           </div>
           {activeMenuTitle === "PERSONAL" && <img src={aboutMePicture} alt="me" className="personal-picture"/>}
+          {activeMenuTitle === "EDUCATION" && <img src={ubcLogo} alt="me" className="ubc-logo"/>}
           {subheadings.map((subheading, index) => (
             <AboutSubheading 
               key={index}

@@ -20,6 +20,10 @@
     transform: translateX(-15.62rem);
 }
 
+img {
+    width: 50px;
+}
+
 a {
     width: 3.125rem;
     display:flex;
