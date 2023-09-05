@@ -38,13 +38,13 @@ export default class ProjectsMenu extends Component {
                     >
                         <source src={projectTwoVid} type="video/mp4" />
                     </video>}
-                    {project.title === "2020 NHL Draft Simulator" && <video 
+                    {project.title === "NHL Draft Simulator" && <video 
                         playsInline 
                         autoPlay 
                         muted 
                         loop 
                         preload="auto" 
-                        id="2020 NHL Draft Simulator" 
+                        id="NHL Draft Simulator" 
                     >
                         <source src={projectThreeVid} type="video/mp4" />
                     </video>}
@@ -69,7 +69,7 @@ export default class ProjectsMenu extends Component {
   render() {
 
     const {activeProject} = this.state;
-    const projectItems = ["Portfolio Website", "Movie Searcher", "2020 NHL Draft Simulator", "Snake Game", "Coming Soon"];
+    const projectItems = ["Portfolio Website", "Movie Searcher", "NHL Draft Simulator", "Snake Game", "Coming Soon"];
 
     return (
       <div className="project-menu">

@@ -129,8 +129,42 @@ img.ubc-logo {
 }
 
 @media (max-width: 700px) {
+    img.personal-picture {
+        width: 6rem;
+    }
+
+    img.ubc-logo {
+        width: 8rem;
+        background-color: lightgray;
+    }
+
     .sub-container {
-        right: 1rem;
+        width: 15rem;
+        top:30%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .title {
+        font-size: 0.8rem;
+        padding-right: 2.5rem;
+    }
+    
+    .active-subheading {
+        font-size: 0.8rem;
+    }
+
+    .icon-title-container,
+    .icon {
+        display:none;
+    }
+
+    h1 {
+        font-size: 0.8rem;
+    }
+
+    h2, h3, p {
+        font-size: 0.8rem;
     }
 
     .item.active.title {
@@ -157,47 +191,5 @@ img.ubc-logo {
         cursor: pointer;
         transform: translateY(-900%);
         margin-left: 8rem;
-    }
-}
-
-@media (max-width: 700px) {
-    img.personal-picture {
-        width: 6rem;
-    }
-
-    img.ubc-logo {
-        width: 6rem;
-        background-color: lightgray;
-    }
-}
-
-@media (max-width: 700px) {
-    .subcontainer {
-        width: 15rem;
-        top:50%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .title {
-        font-size: 0.8rem;
-        padding-right: 2.5rem;
-    }
-    
-    .active-subheading {
-        font-size: 0.8rem;
-    }
-
-    .icon-title-container,
-    .icon {
-        display:none;
-    }
-
-    h1 {
-        font-size: 0.8rem;
-    }
-
-    h2, h3, p {
-        font-size: 0.8rem;
     }
 }

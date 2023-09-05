@@ -39,7 +39,7 @@ const projects = {
         
     },
     3: {
-        title: "2020 NHL Draft Simulator",
+        title: "NHL Draft Simulator",
         image: projectThree,
         description: (
             <>

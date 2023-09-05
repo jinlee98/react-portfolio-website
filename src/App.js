@@ -8,20 +8,25 @@ import Contact from "./contact/Contact.js";
 import "./styles/app.css";
 import Background from "./background/Background.js";
 import AboutMe from "./aboutMe/AboutMe.js";
+import Loader from "react-loaders";
+import "./styles/aboutMenu.scss";
 
 const App = () => {
   return (
-    <Router>
-      <Nav />
-      <Background />
-      <Routes>
-        <Route path="/" element={<About/>}/>
-        <Route path="/skills" element={<Skills/>}/>
-        <Route path="/projects" element={<Projects/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-      </Routes>
-      <AboutMe />
-    </Router>
+    <>
+      <Router>
+        <Nav />
+        <Background />
+        <Routes>
+          <Route path="/" element={<About/>}/>
+          <Route path="/skills" element={<Skills/>}/>
+          <Route path="/projects" element={<Projects/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+        </Routes>
+        <AboutMe />
+      </Router>
+      <Loader type="pacman" />
+    </>
   );
 }
 

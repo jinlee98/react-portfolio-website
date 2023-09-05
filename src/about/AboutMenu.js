@@ -6,7 +6,9 @@ import personalIcon from "../assets/moebius-triangle.png";
 import educationIcon from "../assets/book.png";
 import careerIcon from "../assets/upgrade.png";
 import aboutMePicture from "../assets/pp.png";
-import ubcLogo from "../assets/ubc-logo-png-transparent.png"
+import ubcLogo from "../assets/ubc-logo-png-transparent.png";
+import Loader from "react-loaders";
+import "../styles/aboutMenu.scss";
 
 export default class AboutMenu extends Component {
 
@@ -75,6 +77,7 @@ export default class AboutMenu extends Component {
             />
           ))}
         </div>
+        <Loader type="pacman" />
       </>
     );
   }
