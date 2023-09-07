@@ -3,7 +3,7 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 55%;
+    top: 50%;
     transform: translateY(-60%);
     left: 12vw;
 }
@@ -30,7 +30,7 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 32%;
+    top: 25%;
     right: 12vw;
     cursor: pointer;
 }
